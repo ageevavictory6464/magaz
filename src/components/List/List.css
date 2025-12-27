@@ -1,0 +1,18 @@
+.list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.list--title {
+    margin-top: 7px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.list--text {
+    font-size: 14px;
+    line-height: 16px;
+    margin: 0;
+}

@@ -5,7 +5,8 @@ export const cardArray = [
         price: '170 ₽',
         address: 'Казань, p-н Вахитовский',
         date: '10 июля 11:39',
-        img: '/img/card-img.png'
+        img: '/img/card-img.png',
+        description: 'Продаю в хорошем состоянии.'
     },
     {
         id: 1,
@@ -13,7 +14,8 @@ export const cardArray = [
         price: '171 ₽',
         address: 'Абакан, 4 микр',
         date: '10 июля 11:39',
-        img: '/img/card-img.png'
+        img: '/img/card-img.png',
+        description: 'Продаю в хорошем состоянии.'
     },
     {
         id: 2,
@@ -21,7 +23,8 @@ export const cardArray = [
         price: '172 ₽',
         address: 'Москва',
         date: '10 июля 11:39',
-        img: '/img/card-img.png'
+        img: '/img/card-img.png',
+        description: 'Продаю в хорошем состоянии.'
     },
     {
         id: 3,
@@ -29,7 +32,8 @@ export const cardArray = [
         price: '173 ₽',
         address: 'Питер',
         date: '10 июля 11:39',
-        img: '/img/card-img.png'
+        img: '/img/card-img.png',
+        description: 'Продаю в хорошем состоянии.'
     },
     {
         id: 4,
@@ -37,7 +41,8 @@ export const cardArray = [
         price: '174 ₽',
         address: 'Воронеж',
         date: '10 июля 11:39',
-        img: '/img/card-img.png'
+        img: '/img/card-img.png',
+        description: 'Продаю в хорошем состоянии.'
     },
     {
         id: 5,
@@ -45,7 +50,8 @@ export const cardArray = [
         price: '175 ₽',
         address: 'Нижний Новгород',
         date: '10 июля 11:39',
-        img: '/img/card-img.png'
+        img: '/img/card-img.png',
+        description: 'Продаю в хорошем состоянии.'
     }
 ]
 

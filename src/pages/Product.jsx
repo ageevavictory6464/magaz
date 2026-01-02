@@ -3,7 +3,7 @@ import { listArray } from "../constants"
 import { useOutletContext, useParams } from "react-router-dom";
 
 export const Product = () => {
-    const {products} = useOutletContext()
+    const { products } = useOutletContext()
     const { id } = useParams();
     const findProduct = products.find((p) => p.id === +id)
 
@@ -15,7 +15,7 @@ export const Product = () => {
                         <div className="content-product">
                             <div className="content-product__left">
                                 <h2 className="content-product__title">{findProduct.title}</h2>
-                                <img src={findProduct.img} alt="product-img" className="content-product__img" />
+                                <img src={`${process.env.PUBLIC_URL}${findProduct.img}`} alt="product-img" className="content-product__img" />
                                 <p className="content-product__text">
                                     {findProduct.description}
                                 </p>

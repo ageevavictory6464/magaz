@@ -6,11 +6,11 @@ import { Product } from './pages/Product';
 import { Layout } from './layouts/Layout';
 
 import {
-  createBrowserRouter,
+  createHashRouter,
   RouterProvider,
 } from "react-router-dom";
 
-let router = createBrowserRouter([
+let router = createHashRouter([
   {
     path: "/",
     element: <Layout />,

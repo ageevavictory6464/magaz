@@ -33,7 +33,7 @@ export const Layout = () => {
                                 onChange={handleSearch}
                             />
                             <button className="btn btn-primary search-btn" onClick={handleSearchArray}>
-                                <img className="search-btn__icon" src="/img/search.svg" alt="search" />
+                                <img className="search-btn__icon" src={`${process.env.PUBLIC_URL}/img/search.svg`} alt="search" />
                                 <span className="search-btn__text">Найти</span>
                             </button>
                         </div>
@@ -41,7 +41,7 @@ export const Layout = () => {
                 </section>
             </main>
 
-            <Outlet context={{products}} />
+            <Outlet context={{ products }} />
         </>
     )
 }

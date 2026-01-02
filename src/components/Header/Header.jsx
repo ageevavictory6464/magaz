@@ -7,7 +7,7 @@ export const Header = () => {
             <div className="container">
                 <div className="header-box">
                     <Link to={'/'} className="header-logo">
-                        <img src="/img/logo.svg" alt="logo" />
+                        <img src={`${process.env.PUBLIC_URL}/img/logo.svg`} alt="logo" />
                         <span>Abito</span>
                     </Link>
                     <div className="header-controls">
@@ -16,7 +16,7 @@ export const Header = () => {
                     </div>
 
                     <div className="header-burger">
-                        <img src="/img/menu.svg" alt="burger-menu" />
+                        <img src={`${process.env.PUBLIC_URL}/img/menu.svg`} alt="burger-menu" />
                     </div>
                 </div>
             </div>
